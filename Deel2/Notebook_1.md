@@ -1,3 +1,22 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.10.3
+kernelspec:
+  display_name: Python 3 (ipykernel)
+  language: python
+  name: python3
+---
+
+```{code-cell} Python
+:tags: [remove-input, remove-output, thebe-init]
+%pip install numpy
+% pip install matplotlib
+```
+
 # NB1: Python for physicists, an introduction
 
 * [Learning objectives](#section_1_0)    
@@ -30,7 +49,7 @@ In the TU database information on the building locations are stored. However, wh
 **1)** Fix the errors so that the information is printed correctly.
 
 
-```{code-cell} python
+```{code-cell}python
 Street_name = 'Lorentzweg '
 Number = 1
 Full_adress = Street_name + Number
