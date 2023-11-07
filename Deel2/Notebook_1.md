@@ -14,7 +14,7 @@ kernelspec:
 ```{code-cell} Python
 :tags: [remove-input, remove-output, thebe-init]
 %pip install numpy
-% pip install matplotlib
+%pip install matplotlib
 ```
 
 # NB1: Python for physicists, an introduction
